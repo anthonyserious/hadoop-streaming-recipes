@@ -1,0 +1,1 @@
+hadoop jar /usr/local/Cellar/hadoop/2.5.2/contrib/streaming/hadoop-streaming-2.5.2.jar -input ../threeleapcontrols/README.md -output ./output -mapper ~/src/hadoop-streaming/mapper.pl -reducer ~/src/hadoop-streaming/reducer.pl
