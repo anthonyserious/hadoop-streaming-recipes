@@ -14,7 +14,7 @@ Run with the following:
 ./run.sh input.txt output
 ```
 The input file contains previously recorded interrupt and context switch data from vmstat, where each line contains a name/value pair in its own JSON object.  The mapper will output "key value" pairs, the reducer will pull these values into the Node.js "numbers" package, and will output a JSON report for each name.  The output should be:
-```json
+```javascript
 { name: 'contextSwitches',  
   mean: 25.833333333333332, 
   firstQuartile: 22,  
