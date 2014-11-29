@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+#  Roughly translated from Michael Noll's wordcount with Python and hadoop-streaming
+#  http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
+
 my $currentWord = "", $total = 0;
 my $word = "";
 

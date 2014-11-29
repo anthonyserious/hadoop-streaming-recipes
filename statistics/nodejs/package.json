@@ -1,0 +1,25 @@
+{
+  "name": "hadoop-streaming-recipes-statistics-nodejs",
+  "description": "Example of running standard MapReduce word count example with hadoop-streaming.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Anthony Schneider"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anthonyserious/hadoop-streaming-recipes/tree/master/statistics/nodejs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "byline": "~4.1",
+    "numbers": "~0.5"
+  },
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "bugs": {
+    "url": "https://github.com/anthonyserious/hadoop-streaming-recipes/issues"
+  },
+  "homepage": "http://www.anthonyschneider.io"
+}
+
